@@ -79,7 +79,7 @@ class MainActivity : ComponentActivity() {
         val isAnswerCorrect = if (isLeftSelected) leftNumber > rightNumber else rightNumber > leftNumber
 
         if (isAnswerCorrect) {
-            backgroundView.setBackgroundColor(Color.GREEN)
+            backgroundView.setBackgroundColor(Color.CYAN)
             Toast.makeText(this, "Correct!", Toast.LENGTH_SHORT).show()
             score++
         }
